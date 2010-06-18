@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @budget.name %>
+</p>
+
+<p>
+  <b>Original amount:</b>
+  <%=h @budget.original_amount %>
+</p>
+
+<h3>Budget left: <%=h @budget.amount_left %></h3>
+
+<h3>Suggest food</h3>
+
+<% form_for(@food) do |f| %>
+  <%= render :partial => 'foods/form', :locals => {:f => f} %>
+  <p>
+    <%= f.submit "Suggest" %>
+  </p>
+<% end %>
+
+<%= link_to 'Edit', edit_budget_path(@budget) %> |
+<%= link_to 'Back', budgets_path %>

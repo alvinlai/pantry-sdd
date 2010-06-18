@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  cost: 1
+  budget_id: 1
+
+two:
+  name: MyString
+  cost: 1
+  budget_id: 1

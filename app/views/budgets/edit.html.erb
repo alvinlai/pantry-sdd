@@ -1,0 +1,20 @@
+<h1>Editing budget</h1>
+
+<% form_for(@budget) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :original_amount %><br />
+    <%= f.text_field :original_amount %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @budget %> |
+<%= link_to 'Back', budgets_path %>

@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @food.name %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%=h @food.cost %>
+</p>
+
+<p>
+  <b>Budget:</b>
+  <%=h @food.budget_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_food_path(@food) %> |
+<%= link_to 'Back', foods_path %>
