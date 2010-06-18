@@ -1,5 +1,24 @@
 # Story Driven Development in Ruby on Rails
 
+## Project Goal
+
+This project is actually a tutorial with step by step guides how to conduct Story Driven Development in Ruby on Rails.
+
+## The Story
+
+My company has a fortnight budget allocated for buying pantry food. When it's my team's turn to buy food for the pantry next week, it would be convenient if everyone who has an opinion on what should be bought, would just use this project to suggest, on the condition that the suggestion does not exceed the budget.
+
+This initial take is simplistic and does not yet take into an account of fairness. For example, if the budget is $100 and someone suggests buying Wagyu beef steaks worth $90, the remaining budget left would be $10.
+
+The main project goal is to use this feature request that holds close to your hearts to better appreciate what Story Driven Development can do for you.
+
+Feel free to fork this project and write more cucumber stories and code to pass the tests.
+
+Let's make this a good example to introduce folks to story driven development!
+
+Cheers,
+Alvin Lai
+
 ## Tool stack:
 
 * **cucumber**: Acceptance testing
